@@ -10,6 +10,10 @@ A Windows 10/11 software MVP for evidence-based diagnosis and explicitly approve
 
 ## Quick start and demo materials
 
+**[Download the Windows x64 portable application](https://github.com/YAOMIN-YI/pc-guardian-ai/releases/download/v0.1.0/PC-Guardian-AI-Windows-x64.zip)** · [Release notes and SHA-256 checksum](https://github.com/YAOMIN-YI/pc-guardian-ai/releases/tag/v0.1.0)
+
+Extract the **entire** ZIP, keep the `_internal` folder and run `Run-Demo.cmd`. No Python installation is required for the portable package. All repairs in demo mode are simulated.
+
 This repository contains the source code, tests, fixtures and bilingual documentation. Use **Code → Download ZIP** on GitHub, extract the archive and follow **Run from source** below. To build a portable Windows executable, run `Build-Windows.cmd`.
 
 - [Narration and scene timeline](docs/PC-Guardian-AI-Demo-English-Script.md)
