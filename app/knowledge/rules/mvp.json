@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "disk_free_percent_warning": 10,
+  "disk_free_bytes_warning": 5368709120,
+  "repair_actions": ["start_print_spooler"],
+  "limitations": "Thresholds are heuristics. DNS/TCP failures may reflect firewall or endpoint policy. No hardware failure prediction."
+}
+

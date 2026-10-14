@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pc-guardian-ai"
+version = "0.1.0"
+description = "Portable Windows diagnosis and explicitly approved repair MVP"
+requires-python = ">=3.11"
+dependencies = ["psutil>=6,<8", "PySide6>=6.8,<6.13", "pywin32>=308; sys_platform == 'win32'"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+build = ["pyinstaller>=6.11,<7"]
+
+[project.scripts]
+pc-guardian = "app.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.setuptools.package-data]
+app = ["knowledge/rules/*.json", "knowledge/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

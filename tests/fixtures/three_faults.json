@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "source": "demo",
+  "collected_at": "2026-10-13T00:00:00+00:00",
+  "platform": "Windows",
+  "is_admin": false,
+  "services": {"Spooler": {"status": "stopped", "start_type": "manual", "error": null}},
+  "disks": [{"mountpoint": "C:\\", "total_bytes": 107374182400, "free_bytes": 2147483648}],
+  "network": {"probe_enabled": true, "adapters": [{"name": "Demo Ethernet", "is_up": true}], "dns_ok": false, "tcp_ok": true, "errors": []},
+  "events": [{"id": 7036, "source": "Service Control Manager", "level": "Information", "time": "2026-10-13T00:00:00+00:00", "message": "Synthetic fixture: Print Spooler stopped."}],
+  "errors": []
+}
+
