@@ -8,14 +8,13 @@ A Windows 10/11 software MVP for evidence-based diagnosis and explicitly approve
 
 [繁體中文完整說明](README.zh-TW.md) · [Validation record](docs/verification.md) · [Competition rules checked on 2026-10-13](docs/competition-rules.md)
 
-## Download and demo
+## Quick start and demo materials
 
-- [Windows x64 portable application](https://github.com/YAOMIN-YI/pc-guardian-ai/releases/download/v0.1.0/PC-Guardian-AI-Windows-x64.zip)
-- [Three-minute English demo video (1080p MP4)](https://github.com/YAOMIN-YI/pc-guardian-ai/releases/download/v0.1.0/PC-Guardian-AI-Demo-English.mp4)
-- [English proposal slides (PowerPoint)](https://github.com/YAOMIN-YI/pc-guardian-ai/releases/download/v0.1.0/PC-Guardian-AI-Proposal.pptx)
-- [Narration and scene timeline](docs/PC-Guardian-AI-Demo-English-Script.md) · [English subtitles](docs/PC-Guardian-AI-English-Subtitles.srt)
+This repository contains the source code, tests, fixtures and bilingual documentation. Use **Code → Download ZIP** on GitHub, extract the archive and follow **Run from source** below. To build a portable Windows executable, run `Build-Windows.cmd`.
 
-Extract the **entire** portable archive and run `Run-Demo.cmd`. Keep the `_internal` folder. Python is not required for the portable package. The unsigned executable may trigger a Windows reputation warning.
+- [Narration and scene timeline](docs/PC-Guardian-AI-Demo-English-Script.md)
+- [English subtitles](docs/PC-Guardian-AI-English-Subtitles.srt)
+- [Validation record and limitations](docs/verification.md)
 
 ![Demo interface using synthetic fixtures](docs/demo-preview.png)
 
